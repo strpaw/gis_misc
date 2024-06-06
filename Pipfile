@@ -9,6 +9,8 @@ jupyterlab = "==4.2.1"
 pandas = "==2.2.2"
 geopandas = "==0.14.4"
 matplotlib = "==3.9.0"
+pyyaml = "==6.0.1"
+dacite = "==1.8.1"
 
 [dev-packages]
 pylint = "==3.2.2"

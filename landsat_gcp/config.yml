@@ -1,0 +1,8 @@
+# Number of rows with columns definition/description
+columns_definition_rows: 34
+# Number of rows for header (no data part of the data file)
+header_rows: 37
+# Column names for coordinates - without type, # character
+coordinates:
+  lon: "GCP longitude of reference point in degrees"
+  lat: "GCP latitude of reference point in degrees"
