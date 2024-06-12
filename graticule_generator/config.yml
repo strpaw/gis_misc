@@ -1,0 +1,8 @@
+longitudes:
+  start: -180
+  end: 180
+  step: 15
+latitudes:
+  start: -90
+  end: 90
+  step: 15
