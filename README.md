@@ -19,6 +19,8 @@ example:
  * circular sector with given center point, beginning and end azimuth
  * ring, with given center point and two radii
 
+[Jupyter notebook](airspace_geometry/usage_examples.ipynb) with usage examples 
+
 ## clip_and_merge <a name=clip_and_merge>
 
 Clip data from multiple files to given area of interest and save result into one GeoPackage (gpkg) file
@@ -157,4 +159,4 @@ Example CSV data file:
     ;latB6;lonB6
 
 
-
+[Jupyter notebook](polygons_from_csv/usage_examples.ipynb) with usage examples 
