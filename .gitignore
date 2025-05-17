@@ -2,4 +2,9 @@
 .ipynb_checkpoints/
 __pycache__
 output
+
+clip_and_merge/data/
+clipped_merged.gpkg
+AOI.gpkg
+
 Pipfile.lock
