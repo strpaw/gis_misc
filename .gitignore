@@ -7,4 +7,7 @@ clip_and_merge/data/
 clipped_merged.gpkg
 AOI.gpkg
 
+DOF.csv
+faa_dof_to_postgis_config.yaml
+
 Pipfile.lock

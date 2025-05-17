@@ -11,6 +11,10 @@ geopandas = "==0.14.4"
 matplotlib = "==3.9.0"
 pyyaml = "==6.0.1"
 dacite = "==1.8.1"
+pydantic = "==2.11.4"
+sqlalchemy = "==2.0.40"
+geoalchemy2 = "==0.17.1"
+psycopg2 = "==2.9.9"
 
 [dev-packages]
 pylint = "==3.2.2"

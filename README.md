@@ -5,6 +5,7 @@ Miscellaneous scripts/tools that involves spatial data processing
 - [Scripts](#scripts)
   - [airspace_geometry](#airspace_geometry)
   - [clip_and_merge](#clip_and_merge)
+  - [faa_dof_to_postgis](#faa_dof_to_postgis)
   - [graticule_generator](#graticule_geneator)
   - [landsat_gcp](#landsat_gcp)
   - [polygons_from_csv](#polygon_from_csv)
@@ -62,6 +63,22 @@ Input:
 
 Output:
 ![img](img//clip_and_merge_output.jpg)
+
+## faa_dof_to_postgis <a name=faa_dof_to_postgis>
+
+Script to load FAA (Federal Aviation Administration) DOF (Digital Obstacle File) data from CSV 
+file into PostgreSQL/PostGIS database.
+
+> Notes:
+> * scripts takes no parameters
+> * it reads configuration file `faa_dof_to_postgis_config.yaml` which is in the same directory as script
+> * it reads data from `DOF.CSV` file which is in the same directory as script
+
+Usage:
+
+```
+python faa_dof_to_postgis.py
+```
 
 ## graticule_generator <a name=graticule_geneator>
 
