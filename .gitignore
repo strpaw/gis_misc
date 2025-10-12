@@ -10,4 +10,4 @@ AOI.gpkg
 DOF.csv
 faa_dof_to_postgis_config.yaml
 
-Pipfile.lock
+poetry.lock
