@@ -8,6 +8,7 @@ Miscellaneous scripts/tools that involves spatial data processing
   - [faa_dof_to_postgis](#faa_dof_to_postgis)
   - [graticule_generator](#graticule_geneator)
   - [landsat_gcp](#landsat_gcp)
+  - [polar_circles_tropics_generator](#polar_circles_tropics_generator)
   - [polygons_from_csv](#polygon_from_csv)
 
 # Scripts <a name=scripts>
@@ -147,6 +148,15 @@ After request for the GCPs is submitted:
 
 **-o, --output-file**  
 output file path
+
+## polar_circles_tropics_generator <a name=polar_circles_tropics_generator>
+
+Script to generate special parallels (such as polar circles, tropics) for specific longitude ranges.  
+Usage:  
+`python polar_circles_tropics_generator.py`
+
+Script takes configuration (which parallels to generate, longitude range) from `config.yaml`.
+Refer to [config.yaml](polar_circles_tropics_generator/config.yaml) for more information.
 
 ## polygons_from_csv <a name=polygon_from_csv>
 
