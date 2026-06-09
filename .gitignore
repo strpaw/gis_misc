@@ -4,6 +4,7 @@ __pycache__
 output
 
 clip_and_merge/data/
+polar_circles_tropics_generator/config.yaml
 clipped_merged.gpkg
 AOI.gpkg
 
