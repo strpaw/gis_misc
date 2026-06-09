@@ -156,7 +156,7 @@ Usage:
 `python polar_circles_tropics_generator.py`
 
 Script takes configuration (which parallels to generate, longitude range) from `config.yaml`.
-Refer to [config.yaml](polar_circles_tropics_generator/config.yaml) for more information.
+Refer to [config_sample.yaml](polar_circles_tropics_generator/config_sample.yaml) for more information.
 
 ## polygons_from_csv <a name=polygon_from_csv>
 
